@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="about phuti as a front-end developer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -13,6 +14,28 @@
 </head>
 
 <body>
+    <div class="container"></div>
+    <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+            <img src="images/logo.png" class="logo d-none d-md-block" alt="phuti-logo">
+            <img src="images/logo-small.jpg" class="logo d-block d-md-none" alt="phuti-logo" />
+        </a>
+        <ul>
+            <li>
+                <a href="/" title="Homepage"> Home</a>
+            </li>
+            <li class="active">
+                <a href="/about.html" title="About Phuti"> About</a>
+            </li>
+            <li>
+                <a href="/work.html" title="Phuti's work"> Work</a>
+            </li>
+            <li>
+                <a href="/contact.html" title="Contact Phuti"> Contact</a>
+            </li>
+        </ul>
+    </nav>
+    </div>
     <div class="content-container container">
         <div class="row">
             <div class="col-lg-6">
@@ -36,6 +59,40 @@
                 <img src="images/phuti.jpg" alt="" class="img-fluid" />
             </div>
         </div>
+        <footer>
+            <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
+                <div>
+                    <h3>Work Inquiry</h3>
+                    <p class="text-muted">Let's work together</p>
+                </div>
+                <div>
+                    <a href="/contact.html" class="btn btn-branding nt-3" title="contact phuti"> Contact me </a>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center mb-5">
+                <a href="mailto:mamakatlegoberry@gmail.com" class="email-link" title="Email Phuti">
+                    mamakatlegoberry@gmail.com
+                </a>
+            </div>
+            <div class="social-links d-flex justify-content-center">
+                <a href="https://github.com/phuti28" target="_blank" title="Github profile">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.instagram.com/phuti_malete" target="_blank" title="Instagram profile">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/belinda-phuti-moketla-239514291" target="_blank"
+                    title="LinkedIn profile">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+            <p class="text-center mt-4">
+                👌 This project was coded by Phuti Moketla,and it is <a
+                    href="https://github.com/phuti28/Project-Portfolio" target="_blank">
+                    open-sourced
+                </a>
+            </p>
+        </footer>
     </div>
 </body>
 
